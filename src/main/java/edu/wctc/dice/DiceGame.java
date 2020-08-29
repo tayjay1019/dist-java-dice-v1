@@ -131,7 +131,7 @@ public class DiceGame {
 
     private int rollDie() {
         Random random = new Random();
-        return random.nextInt(6) + 1;
-//        return dieRoller.rollDie();
+        //return random.nextInt(6) + 1;
+        return dieRoller.rollDie();
     }
 }
